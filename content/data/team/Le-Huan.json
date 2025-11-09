@@ -1,0 +1,14 @@
+{
+    "type": "Person",
+    "firstName": "Huan",
+    "lastName": "Le",
+    "role": "Role",
+    "bio": "Đây là tôi\n",
+    "image": {
+        "type": "ImageBlock",
+        "url": "https://assets.stackbit.com/components/images/default/default-person.png",
+        "altText": "Person photo",
+        "caption": "Caption of the image",
+        "elementId": ""
+    }
+}

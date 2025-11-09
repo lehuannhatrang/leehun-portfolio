@@ -75,7 +75,8 @@ sections:
         label: See all posts
         url: /blog
     posts:
-      - content/pages/blog/post-three.md
+      - content/pages/blog/gioi-thieu-ve-criu.md
+      - content/pages/blog/criu-trong-kubernetes.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
