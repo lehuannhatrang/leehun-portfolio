@@ -14,14 +14,14 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      # Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+      # Hey, I'm Le Huan. I'm a **Software Engineer and Researcher**, originally
+      from Viet Nam and now based in Seoul, South Korea. I'm currently an
+      Associate Researcher at Soongsil University while also completing my
+      Master's degree there.
 
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/picture-2.JPG
       altText: Hero image
     styles:
       self:
@@ -55,23 +55,23 @@ sections:
     subtitle: 'I worked with these folks:'
     images:
       - type: ImageBlock
-        url: /images/logo1.svg
-        altText: Logo one
-        caption: Logo one
+        url: /images/axon-logo.png
+        altText: Axon
+        caption: Axon
       - type: ImageBlock
-        url: /images/logo2.svg
+        url: /images/VNG.avif
         altText: Logo two
         caption: Logo two
       - type: ImageBlock
-        url: /images/logo3.svg
+        url: /images/hhg.png
         altText: Logo three
         caption: Logo three
       - type: ImageBlock
-        url: /images/logo4.svg
+        url: /images/weev-favicon.png
         altText: Logo four
         caption: Logo four
       - type: ImageBlock
-        url: /images/logo5.svg
+        url: /images/dcn_lab_logo.png
         altText: Logo five
         caption: Logo five
     spacing: 3
@@ -108,15 +108,8 @@ sections:
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
+            url: 'https://github.com/lehuannhatrang'
+            altText: 'https://github.com/lehuannhatrang'
         styles:
           self:
             textAlign: left
@@ -124,31 +117,7 @@ sections:
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
+            url: 'https://www.linkedin.com/in/leehun/'
         styles:
           self:
             textAlign: left
@@ -180,21 +149,21 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: ReactJS
       - type: Label
-        label: React
-      - type: Label
-        label: Microsoft Office
+        label: NodeJS
       - type: Label
         label: Next.js
       - type: Label
-        label: Netlify
+        label: Javascript
       - type: Label
-        label: Pancakes
+        label: Python
       - type: Label
-        label: C++
+        label: Kubernetes
       - type: Label
-        label: Swift
+        label: Golang
+      - type: Label
+        label: MLOps
   - type: DividerSection
     styles:
       self:
@@ -211,7 +180,7 @@ sections:
     subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      <lehuannhatrang98@gmail.com>
   - type: DividerSection
     styles:
       self:
@@ -228,43 +197,56 @@ sections:
     items:
       - type: FeaturedItem
         subtitle: 'Experience:'
-        text: |-
-          **Current**
+        text: |+
+          **Sept 2024 - Current**
 
-          * freelance @freelance.me
+          *   Associate Researcher at **Soongsil University**
 
-          **2018-2021**
+          **Sept 2024 - Oct 2025**
 
-          * fullstack at this startup
+          *   AI Engineer at **Weev Enterprise**
 
-          **2015**
+          **July 2022 - Aug 2024**
 
-          * senior front-end at this place
+          *   Full-stack Software Enginner at **Axon Enterprise**
 
-          **2013**
+          **March 2021 - June 2022**
 
-          * intern developer at a big company
+          *   Software Engineer at **Hello Health Group**
 
-          **2011**
+          **March 2019 - March 2021**
 
-          * flipping burgers
+          *   Associate Software Enginner at **VNG Corporation**
+
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         subtitle: 'Education:'
-        text: |-
-          **2015-2018**
+        text: >
+          **Soongsil University | Seoul, South Korea**
 
-          * ba computer sciense at a semi fancy school
 
-          **2014**
+          *2024 - 2026*
 
-          * react certificate somewhere
 
-          **2011**
+          *M.S. in Information and Telecommunication Engineering*
 
-          * my highschool
+
+          **
+
+
+          **Ho Chi Minh City University of Technology (HCMUT) | Ho Chi Minh,
+          Viet Nam**
+
+
+          *2016 - 2020*
+
+
+          *B.Eng. in Computer Science (Honor Program)*
+
+
+          *GPA: 8.42/10*
         styles:
           self:
             textAlign: left

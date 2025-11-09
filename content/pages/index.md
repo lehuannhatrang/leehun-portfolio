@@ -14,8 +14,8 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+      I'm a Software Engineer and Researcher specializing in scalable,
+      cloud-native systems and AI-driven applications.
     subtitle: >-
       This is my info—I’m sharing it all this with ya’ll to impress you with all
       the hard work I’ve done in the past few years. Once you’re impressed, you
@@ -51,9 +51,7 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
+      - content/pages/projects/stateful-migration-multi-cluster.md
     styles:
       self:
         height: auto
@@ -65,6 +63,7 @@ sections:
           - pr-4
         textAlign: left
     subtitle: Projects
+    title: ''
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
@@ -76,8 +75,6 @@ sections:
         label: See all posts
         url: /blog
     posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
       - content/pages/blog/post-three.md
     showDate: true
     showExcerpt: true
@@ -153,4 +150,5 @@ sections:
           - pl-4
         flexDirection: row
         textAlign: left
+metaTitle: Leehun Portfolio
 ---

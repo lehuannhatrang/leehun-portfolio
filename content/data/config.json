@@ -27,16 +27,16 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
+                "altText": "Linkedin",
+                "label": "Linkedin",
+                "url": "https://www.linkedin.com/in/leehun/",
+                "icon": "linkedin"
             },
             {
                 "type": "Social",
                 "altText": "GitHub",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "url": "https://github.com/lehuannhatrang",
                 "icon": "github"
             }
         ],
@@ -58,7 +58,7 @@
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
+                "url": "mailto:lehuannhatrang98@gmail.com",
                 "altText": ""
             },
             {
@@ -70,21 +70,21 @@
             {
                 "type": "Link",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
+                "url": "https://github.com/lehuannhatrang",
+                "altText": "https://github.com/lehuannhatrang"
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
+            "phoneNumber": "+84 90-682-1998",
+            "phoneAltText": "+84 90-682-1998",
+            "email": "lehuannhatrang98@gmail.com",
+            "emailAltText": "lehuannhatrang98@gmail.com",
+            "address": "280/29 Bui Huu Nghia, Ho Chi Minh, Viet Nam",
             "addressAltText": "My address"
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "Power by Nelify\n",
         "styles": {
             "self": {
                 "width": "narrow",
