@@ -63,7 +63,7 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 ---
-**Tiêu đề: CRIU trong Kubernetes: Hướng dẫn kỹ thuật để "Save" và "Load" Pods của bạn**
+**CRIU trong Kubernetes: Hướng dẫn kỹ thuật để "Save" và "Load" Pods của bạn**
 
 Chào anh em,
 
@@ -75,9 +75,9 @@ Bài viết này sẽ tập trung vào các yêu cầu kỹ thuật, các "công
 
 ***
 
-### 1. Điều kiện cần: Các "Công tắc" phải được Bật
+### 1. Điều kiện cần:
 
-Để Kubernetes "hiểu" và "cho phép" CRIU hoạt động, chúng ta cần sự đồng ý từ hai "ông lớn": **Kubelet** và **Container Runtime**.
+Để Kubernetes "hiểu" và "cho phép" CRIU hoạt động, chúng ta cần config: **Kubelet** và **Container Runtime**.
 
 #### A. Kubelet Feature Support
 
@@ -152,7 +152,7 @@ buildah config --annotation=org.criu.checkpoint.rootfsImageName="$BASE_IMAGE" "$
 
 Sau khi "đánh dấu", anh em buildah push cái image checkpoint này lên registry.
 
-### 4. Các bước thực hiện "Load Game" (Restore)
+### 4. Các bước thực hiện Restore
 
 Đây là phần "vi diệu" nhất của cả quy trình.
 
